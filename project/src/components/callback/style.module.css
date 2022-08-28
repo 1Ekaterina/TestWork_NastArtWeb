@@ -1,0 +1,98 @@
+.container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: linear-gradient(224.82deg, #030B41 0.85%, #000B52 57.3%, #1900AE 102.14%), #000C52;
+}
+
+.callback {
+  width: 1240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: start;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.callback__backgroundCallback {
+  position: absolute;
+  right: 0;
+}
+
+.callback__caption {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+
+.callback__text {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  max-width: 520px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+  color: rgba(253, 253, 253, 0.8);
+}
+
+.callback__form_input {
+  width: 488px;
+  padding: 15px 30px;
+  background: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  border-radius: 30px;
+  padding-left: 30px;
+  margin-right: 30px;
+}
+
+.callback__form_button {
+  background: linear-gradient(101.49deg, #A5A8F5 17.34%, #B8BAF5 53.55%, #9296F7 86.43%);
+  border-radius: 35px;
+  padding: 19px 40px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0B1120;
+  border: 2px solid linear-gradient(180deg, #000000 0%, #26DF07 0.01%, #E80202 48.96%, #FFE600 100%);
+}
+
+.callback__agree {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  margin-top: 25px;
+  color: rgba(253, 253, 253, 0.6);
+}
+
+.callback__agree_link {
+  color: rgba(253, 253, 253, 0.6);
+  border-bottom: solid 1px #FDFDFD99;
+}
+/*# sourceMappingURL=style.module.css.map */

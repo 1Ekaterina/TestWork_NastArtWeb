@@ -1,0 +1,145 @@
+@charset "UTF-8";
+.container {
+  background: #0C1431;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.footer {
+  width: 1240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__contact {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.footer__contacts {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  /* identical to box height */
+  margin-bottom: 60px;
+  color: rgba(241, 241, 241, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer__contacts_logo {
+  margin-top: 63px;
+}
+
+.footer__contacts_telephone {
+  font-family: FuturaPT Demi;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #B7BAF5;
+  margin-bottom: 8px;
+}
+
+.footer__contacts_addresIcon {
+  margin-right: 12px;
+}
+
+.footer__katalog {
+  margin-top: 43px;
+  text-align: left;
+}
+
+.footer__menu {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: left;
+  margin-top: 43px;
+  color: rgba(241, 241, 241, 0.7);
+}
+
+.footer__menu_caption {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  color: #F1F1F1;
+}
+
+.footer__menu_line {
+  margin-right: 5px;
+  margin-top: -px;
+}
+
+.footer__list {
+  padding-left: 0;
+}
+
+.footer__list_itemBottom:hover {
+  color: #9296F7;
+}
+
+.footer__list_bottom {
+  margin-top: 70px;
+  padding-left: 0;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: rgba(244, 244, 244, 0.5);
+}
+
+.footer__list_item {
+  margin-bottom: 8px;
+}
+
+.footer__list_item:hover {
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  /* кнопка 2 */
+  color: #9296F7;
+}
+
+.katalog__list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: left;
+  margin-top: 16px;
+  color: rgba(241, 241, 241, 0.7);
+  padding-left: 0;
+  -webkit-column-width: 48%;
+          column-width: 48%;
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 4%;
+          column-gap: 4%;
+}
+
+.katalog__item {
+  margin-bottom: 8px;
+}
+/*# sourceMappingURL=style.module.css.map */

@@ -1,0 +1,116 @@
+.karta {
+  background: linear-gradient(224.82deg, #030B41 0.85%, #000B52 57.3%, #1900AE 102.14%), #000C52;
+  height: 657px;
+  background: linear-gradient(224.82deg, #030B41 0.85%, #000B52 57.3%, #1900AE 102.14%), #000C52;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 45px;
+}
+
+.karta__position {
+  position: relative;
+}
+
+.karta__image {
+  position: absolute;
+  margin-left: -750px;
+  margin-top: -60px;
+}
+
+.karta__text {
+  color: white;
+  position: relative;
+}
+
+.karta__text_item1, .karta__text_item2, .karta__text_item3, .karta__text_item4, .karta__text_item5, .karta__text_item6, .karta__text_item7, .karta__text_item8 {
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  z-index: 20;
+  position: absolute;
+}
+
+.karta__text_margin {
+  margin-left: 10px;
+  z-index: 20;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: start;
+  color: rgba(215, 220, 231, 0.4);
+}
+
+.karta__text_margin:hover {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  color: #D7DCE7;
+}
+
+.karta__text_item1 {
+  margin: 240px 0 0 155px;
+}
+
+.karta__text_item2 {
+  margin: 310px 0 0 135px;
+}
+
+.karta__text_item3 {
+  margin: 410px 0 0 90px;
+}
+
+.karta__text_item4 {
+  margin: 390px 0 0 280px;
+}
+
+.karta__text_item5 {
+  margin: 325px 0 0 370px;
+}
+
+.karta__text_item6 {
+  margin: 460px 0 0 460px;
+}
+
+.karta__text_item7 {
+  margin: 275px 0 0 630px;
+}
+
+.karta__mainText {
+  margin-left: 850px;
+  margin-top: 300px;
+  z-index: 100;
+  text-align: start;
+}
+
+.karta__mainText_caption {
+  z-index: 200;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: start;
+  color: #FDFDFD;
+  margin-bottom: 0px;
+}
+
+.karta__mainText_text {
+  font-size: 20px;
+  line-height: 26px;
+  color: rgba(253, 253, 253, 0.8);
+  max-width: 390px;
+  text-align: start;
+  margin-top: 15px;
+}
+
+.container {
+  max-width: 1240px;
+}
+/*# sourceMappingURL=style.module.css.map */
