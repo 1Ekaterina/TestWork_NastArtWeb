@@ -1,0 +1,96 @@
+// {
+//     background: url(—Pngtree—green and blue abstract lines_4364995.png);
+//     transform: matrix(0.03, -1, 1, 0.03, 0, 0);
+// }
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(224.82deg, #030B41 0.85%, #000B52 57.3%, #1900AE 102.14%),
+    #000C52;
+
+}
+.callback{
+    width: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    margin-bottom: 100px;
+    position: relative;
+
+    &__backgroundCallback{
+        position: absolute;
+         right: 0;
+        
+    }
+
+    &__caption{
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 49px;
+        text-transform: uppercase;
+        color: #FDFDFD;
+        margin-top: 120px;
+        margin-bottom: 10px;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 33px;
+        max-width: 520px;
+        margin-top: 40px;
+        margin-bottom: 90px;
+        color: rgba(253, 253, 253, 0.8);
+    }
+
+    &__form{
+
+        &_input{
+            width: 488px;
+            padding: 15px 30px;
+            background: #FFFFFF;
+            border: 1px solid #F1F1F1;
+            border-radius: 30px;
+            padding-left: 30px;
+            margin-right: 30px;
+        }
+
+        &_button{
+            background: linear-gradient(101.49deg, #A5A8F5 17.34%, #B8BAF5 53.55%, #9296F7 86.43%);
+            border-radius: 35px;
+            padding: 19px 40px;
+            letter-spacing: 0.2px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #0B1120;
+            // border: 2px solid  #000000 17.34%;
+            // border-top: 2px solid  #26DF07 ;
+            // border-left: 2px solid #E80202 ;
+            // border-right: 2px solid #E80202 ;
+            // border-bottom: 2px solid #FFE600 15%;
+            border: 2px solid linear-gradient(180deg, #000000 0%, #26DF07 0.01%, #E80202 48.96%, #FFE600 100%);
+
+            
+;
+            
+        }
+    }
+
+    &__agree{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+        margin-top: 25px;
+
+        color: rgba(253, 253, 253, 0.6);
+        &_link{
+            color: rgba(253, 253, 253, 0.6);
+            border-bottom: solid 1px #FDFDFD99;
+        }
+    }
+}

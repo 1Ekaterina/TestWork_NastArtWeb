@@ -1,0 +1,98 @@
+.container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 109px;
+    &__blockActiv{
+        z-index: 10;
+        position: relative;
+
+        &_picture{
+            position: absolute;
+            z-index: -1;
+            top: -100px;
+            left: -80px;
+            //display: none;
+            
+        }
+
+    }
+    &__aboutActiv{
+        position: absolute;
+        z-index: 1;
+        top: -100px;
+        left: -70px;
+        // &_picture{
+        //     z-index: 1;
+        // }
+    }
+    &__fon{
+        position: absolute;
+        z-index: -10;
+        width: 100%;
+        margin-top: -50px;
+    }
+    &__caption{
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 49px;
+        text-align: center;
+        text-transform: uppercase;
+        
+        /* кнопка */
+        margin: 10px 0 30px 0;
+        color: #01237D;
+    }
+    &__text{
+        max-width: 590px;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+
+        /* основной текст */
+
+        color: #5B6276;
+    }
+    &__block{
+        width: 1240px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+
+        &_lineAbout{
+            position: absolute;
+            width: 100%;
+            z-index: 1;
+
+        }
+
+        &_margin{
+            margin-bottom: 40px;
+        }
+        &_item{
+            background: linear-gradient(224.82deg, #010B4B 0.85%, #1900AE 58.45%, #4731FC 102.14%);
+            border-radius: 6px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            z-index: 100;
+            color: #FDFDFD;
+            width: 220px;
+            height: 220px;
+            padding: 30px 10px;
+        }
+    }
+}

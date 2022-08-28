@@ -1,0 +1,107 @@
+.karta{
+    background: linear-gradient(224.82deg, #030B41 0.85%, #000B52 57.3%, #1900AE 102.14%),
+    #000C52;
+    height: 657px;
+    background: linear-gradient(224.82deg, #030B41 0.85%, #000B52 57.3%, #1900AE 102.14%),#000C52;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    &__position{
+        position: relative;
+    }
+    &__image{
+        position: absolute;
+        margin-left: -750px;
+        margin-top: -60px;
+        
+    }
+    &__text{
+        color: white;
+        position: relative;
+
+        &_item1,
+        &_item2,
+        &_item3,
+        &_item4,
+        &_item5,
+        &_item6,
+        &_item7,
+        &_item8{
+            width:180px;
+            display: flex;
+            
+            align-items: start;
+            z-index: 20;  
+            position: absolute;
+        }
+        &_margin{
+            margin-left: 10px;
+            z-index: 20;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: start;
+
+            color: rgba(215, 220, 231, 0.4);
+            &:hover {
+                font-weight: 450;
+                font-size: 16px;
+                line-height: 21px;
+                color: #D7DCE7;
+            }
+        }
+
+        &_item1{
+            margin: 240px 0 0 155px;
+        }
+        &_item2{
+            margin: 310px 0 0 135px;
+        }
+        &_item3{
+            margin: 410px 0 0 90px;
+        }
+        &_item4{
+            margin: 390px 0 0 280px;
+        }
+        &_item5{
+            margin: 325px 0 0 370px;
+        }
+        &_item6{
+            margin: 460px 0 0 460px;
+        }
+        &_item7{
+            margin: 275px 0 0 630px;
+        }
+        
+    }
+    &__mainText{
+        // position: absolute;
+        // right: 450px;
+        // top
+        margin-left: 850px;
+        margin-top: 300px;
+        z-index: 100;
+        text-align: start;
+        &_caption{
+            z-index: 200;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 36px;
+            text-align: start;
+            color: #FDFDFD;
+            margin-bottom: 0px;
+        }
+        &_text{
+            font-size: 20px;
+            line-height: 26px;
+            color: rgba(253, 253, 253, 0.8);
+            max-width: 390px;
+            text-align: start;
+            margin-top: 15px;
+        }
+    }
+}
+.container{
+    max-width: 1240px;
+}

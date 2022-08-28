@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'FuturaPT Demi';
+    font-style: normal;
+    font-weight: 500;
+    src:
+        url('../../fonts/FuturaPT-DemiObl.woff') format('woff'),
+        url('../../fonts/FuturaPT-DemiObl.eot') format('eot');
+
+}
+
+
+.header {
+    width:100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 115px;
+
+
+    &__logo {
+        margin-right: 115px;
+    }
+    &__nav{
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+
+
+            &_item {
+                margin-right: 27px;
+                font-size: 20px;
+                line-height: 30px;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+
+                &:active {
+                    opacity: 1;
+                }
+
+                &:last-child {
+                    margin-right: 72px;
+                }
+            }
+        }
+
+    }
+    &__contact{
+        
+       text-align: end;
+      
+
+        &_telephone{
+            font-family: FuturaPT Demi;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            color: #B7BAF5;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+.banner{
+    &__caption{
+        text-transform: uppercase;
+        font-weight: 450;
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+
+    &__text{
+        margin-bottom: 115px;
+    }
+    &__formSearch{
+        position: relative;
+        display: inline-block;
+        width: 50%;
+         &_input {
+             width: 852px;
+             padding: 15px 30px;
+             background: #FFFFFF;
+             border: 1px solid #F1F1F1;
+             border-radius: 30px;
+             padding-left: 30px;
+         }
+
+         &_button {
+             width: 159px;
+
+             padding: 15px 50px;
+             color: #010424;
+             text-transform: uppercase;
+             font-weight: 500;
+             background: linear-gradient(101.49deg, #A5A8F5 17.34%, #B8BAF5 53.55%, #9296F7 86.43%);
+             border-radius: 35px;
+             position: absolute;
+            //  border: 10px solid transparent;
+            //  border-image: linear-gradient(#000000, #26DF07, #E80202, #FFE600);
+         }
+        
+    }
+   
+}
+
+header{
+
+    color: white;
+    background: url("../../images/mainVector.svg") center / contain no-repeat #000C52;
+    border-bottom-right-radius: -150em 1em;
+    border-bottom-left-radius: 150em 1em;
+    width:100%;
+    height: 100%;
+    padding-bottom: 120px;
+}
+

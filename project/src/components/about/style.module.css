@@ -1,0 +1,119 @@
+@charset "UTF-8";
+.container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  margin-bottom: 109px;
+}
+
+.about__blockActiv {
+  z-index: 10;
+  position: relative;
+}
+
+.about__blockActiv_picture {
+  position: absolute;
+  z-index: -1;
+  top: -100px;
+  left: -80px;
+}
+
+.about__aboutActiv {
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  left: -70px;
+}
+
+.about__fon {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.about__caption {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 49px;
+  text-align: center;
+  text-transform: uppercase;
+  /* кнопка */
+  margin: 10px 0 30px 0;
+  color: #01237D;
+}
+
+.about__text {
+  max-width: 590px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  /* основной текст */
+  color: #5B6276;
+}
+
+.about__block {
+  width: 1240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__block_lineAbout {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.about__block_margin {
+  margin-bottom: 40px;
+}
+
+.about__block_item {
+  background: linear-gradient(224.82deg, #010B4B 0.85%, #1900AE 58.45%, #4731FC 102.14%);
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  z-index: 100;
+  color: #FDFDFD;
+  width: 220px;
+  height: 220px;
+  padding: 30px 10px;
+}
+/*# sourceMappingURL=style.module.css.map */

@@ -1,0 +1,140 @@
+.container{
+    background: #0C1431;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.footer{
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    
+    &__contact{
+        margin-top: 40px;
+        text-align: left;
+    }
+
+    &__contacts{
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        /* identical to box height */
+        margin-bottom: 60px;
+
+        color: rgba(241, 241, 241, 0.8);
+        display: flex;
+        align-items: flex-start;
+        &_logo{
+            margin-top: 63px;
+        }
+
+        &_telephone{
+           font-family: FuturaPT Demi;
+           font-style: normal;
+           font-weight: 500;
+           font-size: 16px;
+           color: #B7BAF5;
+           margin-bottom: 8px;
+        }
+
+        &_addresIcon{
+            margin-right: 12px;
+        }
+
+        
+    }
+
+    &__katalog{
+        margin-top: 43px;
+        text-align: left;
+    }
+
+    &__menu{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: left;
+        margin-top: 43px;
+        color: rgba(241, 241, 241, 0.7);
+
+        &_caption{
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            /* identical to box height */
+
+
+            color: #F1F1F1;
+        }
+        &_line{
+            margin-right: 5px;
+            margin-top: -px;
+        }
+    }
+
+    &__list{
+        padding-left: 0;
+        
+        &_itemBottom {
+            &:hover {
+                color: #9296F7;
+            }
+        }
+
+        &_bottom{
+            margin-top: 70px;
+            padding-left: 0;
+            font-size: 12px;
+            line-height: 20px;
+            /* identical to box height, or 167% */
+
+            text-decoration-line: underline;
+
+            color: rgba(244, 244, 244, 0.5);
+            
+
+            
+        }
+        &_item{
+            margin-bottom: 8px;
+
+            &:hover{
+                font-size: 16px;
+                line-height: 21px;
+                /* identical to box height */
+
+
+                /* кнопка 2 */
+
+                color:  #9296F7 ;
+            }
+        }
+    }
+}
+
+.katalog{
+    &__list{
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: left;
+    margin-top: 16px;
+    color: rgba(241, 241, 241, 0.7);
+    padding-left: 0;
+
+    column-width: 48%;
+    column-count: 2;
+    column-gap: 4%;
+    }
+
+    &__item{
+       margin-bottom: 8px;
+    }
+    
+}

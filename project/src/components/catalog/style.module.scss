@@ -1,0 +1,65 @@
+.card{
+    max-width: 288px;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 16px rgba(45, 65, 114, 0.1);
+    border-radius: 8px;
+    padding: 10px 10px 0 10px;
+    position: relative;
+
+    &__body{
+        margin-bottom: 30px;
+    }
+    &__lineBottom{
+        position: absolute;
+        bottom: 0px;
+        right: 72px;
+    }
+    
+    &:hover{
+        box-shadow: 3px 3px 25px rgba(45, 65, 114, 0.2);
+
+    }
+}
+.catalog{
+    width: 90%;
+    
+    max-width: 1240px;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+.carusel{
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    &__text{
+        font-family: FuturaPT Demi;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 49px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #01237D;
+        margin-bottom: 40px;
+    }
+
+    &__line{
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+
+}
+
+.container{
+        margin-bottom: 180px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
